@@ -76,7 +76,7 @@ export default {
   },
   methods: {
     add: function() {
-      this.list.push({ name: "Juan " + id, id: id++ });
+      this.list.push({ name: "Hello " + id, id: id++ });
     },
     replace: function() {
       this.list = [{ name: "Edgard", id: id++ }];
