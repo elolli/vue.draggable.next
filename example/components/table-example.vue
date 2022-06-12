@@ -39,10 +39,10 @@ export default {
   data() {
     return {
       list: [
-        { id: 1, name: "Abby", sport: "basket" },
-        { id: 2, name: "Brooke", sport: "foot" },
-        { id: 3, name: "Courtenay", sport: "volley" },
-        { id: 4, name: "David", sport: "rugby" }
+        { order: 1, name: "Promo1", locations: "loc1, loc2, loc3" },
+        { order: 2, name: "Promo2", sport: "loc1, loc2, loc3" },
+        { order: 3, name: "Promo3", sport: "loc1, loc2" },
+        { order: 4, name: "Promo4", sport: "loc1" }
       ],
       dragging: false
     };
